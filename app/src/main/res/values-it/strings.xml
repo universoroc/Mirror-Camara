@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">MyMirror</string>
+    <string name="app_version">version 1.0.0</string>
+    <string name="app_developer">By RocSoftware</string>
+    <string name="cia_developer">RocSoftware</string>
+    <string name="last_photo">Ultima Foto</string>
+    <string name="email_support">rocsoftware9@gmail.com</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="gallery_management">Galleria Gestione</string>
+    <string name="share">Condividi</string>
+    <string name="email">Invia e-mail / reazione</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="communicate">Comunicare</string>
+
+    <string name="brightness">Luminosità</string>
+    <string name="sentence_share">immagine Condividi con ...</string>
+    <string name="sentence_notfound_gallery">Spiacenti, non riesco a trovare alcuna galleria app...</string>
+    <string name="sentence_select_directory">Seleziona la tua foto dalla cartella</string>
+    <string name="sentence_notfound_galleryorfile">"Spiacenti, non riesco a trovare qualsiasi applicazione galleria o il file non esistono ... "</string>
+    <string name="sentence_notfound_email">Spiacenti, non riesco a trovare qualsiasi applicazione di posta elettronica ...</string>
+    <string name="sentence_notfound_shareorfile">Spiacenti, non riesco a trovare alcuna quota applicazione o il file non esistono ...</string>
+    <string name="sentence_email">Invia e-mail con ...</string>
+
+    <string name="saved">Salvati</string>
+
+    <string name="picture">foto</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">Questa applicazione richiede l\'autorizzazione della fotocamera.</string>
+    <string name="camera_error">Questo dispositivo non supporta Camera2 API.</string>
+    <string name="permission_rationale_title">autorizzato</string>
+    <string name="permission_rationale_camera">permesso fotocamera è necessario per consentire alla fotocamera</string>
+    <string name="permission_rationale_storage">bagagli lettura / permesso di scrittura è necessario per salvare le foto</string>
+
+
+    <!-- This is an ad unit ID for a test ad. Replace with your own banner ad unit id. -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="android_studio_android_com">android.studio@android.com</string>
+    <string name="about">Informazioni</string>
+    <string name="acknowledgments">Ringraziamenti e crediti / descrizione:</string>
+    <string name="ack_content">
+        \n\"MyMirror\" Icona fatta da Freepik [http://www.freepik.com] da www.flaticon.com
+        \n\n\"Informazioni\" Icona fatta da / per www.icons8.com
+        \n\"macchina fotografica\" Icona fatta da / per www.icons8.com
+        \n\"Impostazioni\" Icona fatta da / per www.icons8.com
+        \n\"cancellare\" Icona fatta da / per www.icons8.com
+        \n\"Invia E-mail\" Icona fatta da Yannick [http://yanlu.de] da www.flaticon.com
+        \nIcona \"Esposizioni\" fatta da EpicCoder [http://www.epicpxls.com] da www.flaticon.com
+        \nIcona \"Condividi\" fatta da Freepik [http://www.freepik.com] da www.flaticon.com e Android Studio da Google.
+        Otturatore della fotocamera suono da http://www.sonidosmp3gratis.com
+
+        \n\nQuesto prodotto contiene, l\'Android Open Source Project: Camera2basic, che è
+        sotto licenza Apache License Version 2.0. La licenza può essere scaricato da
+        http://www.apache.org/licenses/LICENSE-2.0.html
+        \n\nQuesta applicazione ha bisogno di qualche applicazione galleria installata nel dispositivo.
+
+        \n\nQuesta applicazione utilizza Camera2 API.
+        \n\nCopyright © 2016- Rogelio Calderín.
+        \nTutti i diritti riservati.
+    </string>
+    <string name="application">Applicazione</string>
+    <string name="preference_animation_ui_example">Eseguire UI esempio di animazione a partire.</string>
+    <string name="preference_animation_ui_example_summary">Eseguire UI esempio di animazione a partire applicazione.</string>
+    <string name="preference_last_photo">Ricorda ultima foto.</string>
+    <string name="preference_last_photo_summary">Ricorda ultima foto fatta o selezionato.</string>
+    <string name="preference_sound_effect">Effetto sonoro.</string>
+    <string name="preference_sound_effect_summary">Suono quando fare clic sui pulsanti.</string>
+    <string name="sentence_configure_failed">Mi dispiace, non riesco a configurare l\'anteprima della fotocamera.</string>
+    <string name="sentence_havent_picked_image">Hai selezionato alcuna immagine.</string>
+    <string name="sentence_wrong">Qualcosa è andato storto.</string>
+
+
+</resources>

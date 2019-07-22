@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">MyMirror</string>
+    <string name="app_version">version 1.0.0</string>
+    <string name="app_developer">By RocSoftware</string>
+    <string name="cia_developer">RocSoftware</string>
+    <string name="last_photo">最後の写真</string>
+    <string name="email_support">rocsoftware9@gmail.com</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="gallery_management">ギャラリー管理</string>
+    <string name="share">共有</string>
+    <string name="email">送信電子メール / フィードバック</string>
+    <string name="action_settings">設定</string>
+    <string name="communicate">通信する</string>
+
+    <string name="brightness">明るさ</string>
+    <string name="sentence_share">画像を共有する...</string>
+    <string name="sentence_notfound_gallery">申し訳ありません、ギャラリーアプリが見つかりません...</string>
+    <string name="sentence_select_directory">フォルダから写真を選択する</string>
+    <string name="sentence_notfound_galleryorfile">申し訳ありません、ギャラリーアプリケーションが見つからないか、ファイルが存在しません...</string>
+    <string name="sentence_notfound_email">申し訳ありませんが、電子メールアプリが見つかりません...</string>
+    <string name="sentence_notfound_shareorfile">申し訳ありませんが、共有アプリが見つからないか、ファイルが存在しません...</string>
+    <string name="sentence_email">メールを送信する</string>
+
+    <string name="saved">保存済み</string>
+
+    <string name="picture">画像</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">このアプリケーションにはカメラのアクセス許可が必要です。</string>
+    <string name="camera_error">このデバイスはCamera2 APIをサポートしていません。</string>
+    <string name="permission_rationale_title">必要な権限</string>
+    <string name="permission_rationale_camera">カメラを有効にするにはカメラ権限が必要です。</string>
+    <string name="permission_rationale_storage">写真を保存するにはストレージの読み書き権限が必要です。</string>
+
+
+    <!-- This is an ad unit ID for a test ad. Replace with your own banner ad unit id. -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="android_studio_android_com">android.studio@android.com</string>
+    <string name="about">情報</string>
+    <string name="acknowledgments">謝辞とクレジット / 説明：</string>
+    <string name="ack_content">
+        \nFreepik [http://www.freepik.com] が www.flaticon.com から作成した「MyMirror」アイコン
+
+        \n\nwww.icons8.com によって作成された「情報」アイコン
+
+        \n\nwww.icons8.com によって作成された「カメラ」アイコン
+
+        \n\nwww.icons8.com によって作成された「設定」アイコン
+        \n\nwww.icons8.com によって作成された「削除」アイコン
+
+        \n\nYannick [http://yanlu.de] の「送信電子メール」アイコン （ www.flaticon.com ）
+
+        \n\nEpicCoder [http://www.epicpxls.com] が www.flaticon.com から作成した「暴露」アイコン
+
+        \n\nFreepik [http://www.freepik.com]がwww.flaticon.com から、そしてAndroid StudioをGoogleから「共有」アイコン。
+
+        \n\nhttp://www.sonidosmp3gratis.com からのカメラシャッター音
+
+        \n\nこの製品には、Androidオープンソースプロジェクト：Camera2basicが含まれています。
+        Apache License Version 2.0でライセンスされています。 ライセンスはからダウンロードできます。
+                 http://www.apache.org/licenses/LICENSE-2.0.html
+
+        \n\nこのアプリケーションには、お使いのデバイスにインストールされているギャラリーアプリケーションが必要です。
+
+        \n\nこのアプリケーションはCamera2 APIを使用します。
+        \n\nCopyright©2016- Rogelio Calderín。
+        \n全著作権所有。
+    </string>
+    <string name="application">応用</string>
+    <string name="preference_animation_ui_example">開始時にUIアニメーションの例を実行します。</string>
+    <string name="preference_animation_ui_example_summary">アプリケーション起動時にUIアニメーションの例を実行します。</string>
+    <string name="preference_last_photo">最後の写真を覚えている。</string>
+    <string name="preference_last_photo_summary">最後に撮影された写真を覚えています</string>
+    <string name="preference_sound_effect">効果音。</string>
+    <string name="preference_sound_effect_summary">ボタンをクリックすると音が鳴ります。</string>
+    <string name="sentence_configure_failed">申し訳ありませんが、カメラのプレビューを設定できません。</string>
+    <string name="sentence_havent_picked_image">画像が選択されていません。</string>
+    <string name="sentence_wrong">何かが間違っていた。</string>
+
+
+</resources>

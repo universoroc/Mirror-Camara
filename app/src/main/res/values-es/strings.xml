@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">MyMirror</string>
+    <string name="app_version">version 1.0.0</string>
+    <string name="app_developer">By RocSoftware</string>
+    <string name="cia_developer">RocSoftware</string>
+    <string name="last_photo">Last Photo</string>
+    <string name="email_support">rocsoftware9@gmail.com</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="gallery_management">Administración de galerias</string>
+    <string name="share">Compartir</string>
+    <string name="email">Enviar correo  / Sugerencias</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="communicate">Comunicarse</string>
+
+    <string name="brightness">Brillo</string>
+    <string name="sentence_share">Compartir imagen con...</string>
+    <string name="sentence_notfound_gallery">Lo siento, no encuentro ninguna app para galerias...</string>
+    <string name="sentence_select_directory">Selecciona tu foto del directorio  </string>
+    <string name="sentence_notfound_galleryorfile">Lo siento, no encuentro ninguna app para galerias o el archivo ya no existe...</string>
+    <string name="sentence_notfound_email">Lo siento no encuentro ninguna app para correo...</string>
+    <string name="sentence_notfound_shareorfile">Lo siento no encuentro ninguna app para compartir tu foto o el archivo ya no existe...</string>
+    <string name="sentence_email">Enviar correo electrónico con ...</string>
+
+    <string name="saved">Guardado en</string>
+
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">Esta aplicación necesita permiso de uso de la cámara.</string>
+    <string name="camera_error">Este aparato no soporta la versión de software de la cámara que se necesita(Camera2 API).</string>
+    <string name="permission_rationale_title">Permiso requerido</string>
+    <string name="permission_rationale_camera">Se necesita permiso de uso de la cámara para utilizarla.</string>
+    <string name="permission_rationale_storage">Se necesitan permisos de lectura/escritura para guardar fotos.</string>
+
+
+    <!-- This is an ad unit ID for a test ad. Replace with your own banner ad unit id. -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="android_studio_android_com">android.studio@android.com</string>
+
+    <string name="about">Acerca de</string>
+    <string name="preference_animation_ui_example">Ejecute el ejemplo de animación de UI al iniciar.</string>
+    <string name="preference_animation_ui_example_summary">Ejecute el ejemplo de animación UI al iniciar la aplicación.</string>
+    <string name="preference_last_photo">Recordar última foto.</string>
+    <string name="preference_last_photo_summary">Recordar última foto hecha o seleccionada.</string>
+    <string name="preference_sound_effect">Efecto de sonido.</string>
+    <string name="preference_sound_effect_summary">Efecto de sonido en los botones.</string>
+    <string name="sentence_configure_failed">Lo siento, no puedo configurar la vista previa de la cámara.</string>
+    <string name="sentence_havent_picked_image">No has escogido ninguna imagen.</string>
+    <string name="sentence_wrong">Algo salió mal.</string>
+    <string name="application">Aplicación</string>
+    <string name="acknowledgments">Reconocimientos y créditos/descripción:</string>
+    <string name="ack_content">
+       \n \"MyMirror\" Icono hecho por Freepik [http://www.freepik.com] de www.flaticon.com
+       \n \n \"Acerca de\" Icono hecho por / de www.icons8.com
+       \n \"Cámara\" Icono realizado por / de www.icons8.com
+       \n \"Ajustes\" Icono realizado por / de www.icons8.com
+       \n \"Borrar\" Icono realizado por / de www.icons8.com
+       \n \"Enviar Correo\" Icono hecho por Yannick [http://yanlu.de] de www.flaticon.com
+       \n \"Exposición\" Icono hecho por EpicCoder [http://www.epicpxls.com] de www.flaticon.com
+       \n \"Compartir\" Icono hecho por Freepik [http://www.freepik.com] de www.flaticon.com y
+        Android Studio de Google.
+       \nEl sonido del obturador de la cámara de http://www.sonidosmp3gratis.com
+
+       \n \nEste producto contiene, El Proyecto Open Source de Android: Camera2basic,
+       \nbajo Licencia Apache Versión 2.0. La licencia se puede descargar de
+        Http://www.apache.org/licenses/LICENSE-2.0.html
+       \n\nEsta aplicación necesita una aplicación de galería instalada en tu dispositivo.
+       \n\nEsta aplicación utiliza la API de Camera2.
+       \n\nCopyright © 2016- Rogelio Calderín.
+       \nTodos los derechos reservados.
+
+    </string>
+</resources>

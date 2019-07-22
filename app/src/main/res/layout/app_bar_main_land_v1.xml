@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.rocsoftware.mymirror.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <!--android:layout_marginBottom="60dp" -->
+ <!--   <FrameLayout
+        android:id="@+id/fragment_mirror_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+       >
+
+        <include layout="@layout/fragment_camera2_basic" />
+
+    </FrameLayout>
+    -->
+<!--
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorGray"
+        >
+
+        <com.google.android.gms.ads.AdView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/adView"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id"
+            />
+    </FrameLayout>
+-->
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/flb_action_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        ads:fabSize="mini"
+        ads:srcCompat="@drawable/ic_menu_camera"
+        android:alpha="0.8"
+        app:layout_anchor="@+id/fragment_mirror_holder"
+        app:layout_anchorGravity="bottom|left"
+        android:layout_marginStart="5dp"/>
+
+
+    <SeekBar
+        android:id="@+id/skb_action_exposure"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        ads:fabSize="mini"
+        android:alpha="0.8"
+        android:max="24"
+        android:progress="0"
+        app:layout_anchorGravity="bottom"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="10dp"
+        app:layout_anchor="@+id/fragment_mirror_holder"
+        android:layout_toEndOf="@+id/flb_action_camera"
+        android:thumb="@drawable/ic_menu_exposure_green2" />
+
+    <ImageView
+        android:id="@+id/imgV_lastPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/last_photo"
+        ads:srcCompat="@mipmap/ic_launcher"
+        android:alpha="0.8"
+        app:layout_anchor="@+id/fragment_mirror_holder"
+        app:layout_anchorGravity="bottom|right"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="gone"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/flb_action_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        ads:fabSize="mini"
+        ads:srcCompat="@drawable/ic_menu_share"
+        android:alpha="0.8"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="5dp"
+        android:visibility="gone"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/flb_action_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        ads:fabSize="mini"
+        ads:srcCompat="@drawable/ic_menu_gallery"
+        android:alpha="0.8"
+        android:layout_gravity="top|start"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="5dp" />
+
+
+    <TextView
+        android:id="@+id/txtV_availableMemory"
+        android:text="1GB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/colorWhite" />
+
+</android.support.design.widget.CoordinatorLayout>

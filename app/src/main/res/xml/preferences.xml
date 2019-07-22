@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/action_settings">
+    <PreferenceCategory
+        android:key="preference_category_settings"
+        android:title="@string/application"
+        android:icon="@drawable/ic_settings_white">
+
+
+        <SwitchPreference
+            android:key="preference_animation_ui_example"
+            android:title="@string/preference_animation_ui_example"
+            android:summary="@string/preference_animation_ui_example_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="preference_remember_last_photo"
+            android:title="@string/preference_last_photo"
+            android:summary="@string/preference_last_photo_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="preference_sound_effect"
+            android:title="@string/preference_sound_effect"
+            android:summary="@string/preference_sound_effect_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="preference_delete_photo"
+            android:title="@string/preference_delete_photo"
+            android:summary="@string/preference_delete_photo_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

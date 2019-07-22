@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:scrollbars = "vertical"
+    android:background="@color/colorGray"
+    tools:context="com.rocsoftware.mymirror.AboutScrollingActivity"
+    tools:showIn="@layout/activity_scrolling_about"
+    android:scrollbarThumbVertical="@android:color/darker_gray"
+    android:fadeScrollbars="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@mipmap/ic_mirror"
+            android:drawablePadding="20dp"
+            android:padding="20dp"
+            android:textSize="24sp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:fontFamily="serif" />
+
+
+
+        <TextView
+            android:id="@+id/text_content"
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="@dimen/text_margin"
+            android:fontFamily="serif"
+            android:paddingTop="5dp" />
+        <TextView
+            android:id="@+id/text_content2"
+            android:text="@string/app_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="@dimen/text_margin"
+            android:fontFamily="serif"
+            android:paddingTop="0dp" />
+        <TextView
+            android:id="@+id/text_content3"
+            android:text="@string/app_developer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="@dimen/text_margin"
+            android:fontFamily="serif"
+            android:paddingTop="0dp"
+             />
+        <TextView
+            android:id="@+id/text_content4"
+            android:text="@string/acknowledgments"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="@dimen/text_margin"
+            android:fontFamily="serif" />
+        <TextView
+            android:id="@+id/text_content5"
+            android:text="@string/ack_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="@dimen/text_margin"
+            android:layout_marginEnd="@dimen/text_margin"
+            android:fontFamily="serif" />
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

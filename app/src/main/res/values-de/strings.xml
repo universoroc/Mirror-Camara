@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">MyMirror</string>
+    <string name="app_version">version 1.0.0</string>
+    <string name="app_developer">By RocSoftware</string>
+    <string name="cia_developer">RocSoftware</string>
+    <string name="last_photo">Letztes Foto</string>
+    <string name="email_support">rocsoftware@gmail.com</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="gallery_management">Galerieverwaltung</string>
+    <string name="share">Freigabe</string>
+    <string name="email">Senden Sie E-Mail / Feedback</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="communicate">Kommunizieren</string>
+
+    <string name="sentence_share">Bild mit ...</string>
+    <string name="sentence_notfound_gallery">Sorry, ich kann keine Galerie-App finden ...</string>
+    <string name="sentence_select_directory">Wählen Sie Ihr Foto aus Ordner</string>
+    <string name="sentence_notfound_galleryorfile">Sorry, ich kann keine Galerie-App finden oder die Datei existiert nicht ...</string>
+    <string name="sentence_notfound_email">Sorry, ich kann keine E-Mail-App ...</string>
+    <string name="sentence_notfound_shareorfile">Sorry, ich kann keine Share-App finden oder die Datei existiert nicht ...</string>
+    <string name="sentence_email">E-Mail senden mit ...</string>
+
+    <string name="saved">Gespeichert</string>
+
+    <string name="picture">Bild</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">Diese App benötigt eine Kamera-Erlaubnis.</string>
+    <string name="camera_error">Dieses Gerät unterstützt keine Camera2-API.</string>
+
+    <string name="permission_rationale_title">Berechtigung erforderlich</string>
+    <string name="permission_rationale_camera">Für die Aktivierung der Kamera ist eine Kameraberechtigung erforderlich</string>
+    <string name="permission_rationale_storage">Speicherung von Lese- / Schreibberechtigung ist erforderlich, um Fotos zu speichern</string>
+
+
+    <!-- This is an ad unit ID for a test ad. Replace with your own banner ad unit id. -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="android_studio_android_com">android.studio@android.com</string>
+    <string name="brightness">Helligkeit</string>
+    <string name="about">Über</string>
+    <string name="acknowledgments">Danksagungen und Beschreibungen:</string>
+    <string name="ack_content">
+
+        \n\"MyMirror\" Icon gemacht von Freepik [http://www.freepik.com] von www.flaticon.com
+        \n\n\"Über\" Icon gemacht von www.icons8.com
+        \n\"Kamera\" Icon gemacht von  www.icons8.com
+        \n\"Einstellungen\" Icon gemacht von  www.icons8.com
+        \n\"löschen\" Icon gemacht von  www.icons8.com
+        \n\"E-Mail senden\" Icon von Yannick [http://yanlu.de] von www.flaticon.com
+        \n\"Exposure\" Icon gemacht von EpicCoder [http://www.epicpxls.com] von www.flaticon.com
+        \n\"Freigeben\" Icon von Freepik gemacht [http://www.freepik.com] von www.flaticon.com und Android Studio von Google.
+        \nKamera Shutter Ton von http://www.sonidosmp3gratis.com
+
+        \n\nDieses Produkt enthält, Das Android Open Source Projekt: Camera2basic, die ist
+        \nLizenziert unter Apache License Version 2.0. Die Lizenz kann heruntergeladen werden
+        Http://www.apache.org/licenses/LICENSE-2.0.html
+        \n\nDiese Anwendung benötigt einige Galerie-Anwendung auf Ihrem Gerät installiert.
+
+        \n\nDiese Anwendung nutzt Camera2 API.
+        \n\nUrheberrecht © 2016- Rogelio Calderín.
+        \nAlle Rechte vorbehalten.
+    </string>
+
+    <string name="application">Anwendung</string>
+    <string name="preference_animation_ui_example">Führen Sie Animationsbeispiel beim Start aus..</string>
+    <string name="preference_animation_ui_example_summary">Führen Sie UI-Animationsbeispiel bei der Startanwendung aus.</string>
+    <string name="preference_last_photo">Denken Sie daran, letzte Foto.</string>
+    <string name="preference_last_photo_summary">Denken Sie daran, letzte Foto gemacht oder ausgewählt.</string>
+    <string name="preference_sound_effect">Sound-Effekt.</string>
+    <string name="preference_sound_effect_summary">Sound bei Klick-Schaltflächen.</string>
+    <string name="sentence_configure_failed">Sorry, ich kann die Vorschau der Kamera nicht konfigurieren.</string>
+    <string name="sentence_havent_picked_image">Sie haben kein Bild ausgewählt.</string>
+    <string name="sentence_wrong">Etwas ist schief gelaufen.</string>
+
+
+</resources>

@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">MyMirror</string>
+    <string name="app_version">version 1.0.0</string>
+    <string name="app_developer">By RocSoftware</string>
+    <string name="cia_developer">RocSoftware</string>
+    <string name="last_photo">Последняя фотография</string>
+    <string name="email_support">rocsoftware9@gmail.com</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="gallery_management">Галерея Управление</string>
+    <string name="share">Доля</string>
+    <string name="email">Пошлите посылая по электронной почте / обратную связь</string>
+    <string name="action_settings">Настройки</string>
+    <string name="communicate">Связь</string>
+
+    <string name="brightness">Яркость</string>
+    <string name="sentence_share">Доля изображения с ...</string>
+    <string name="sentence_notfound_gallery">К сожалению, я не могу найти любую галерею приложение ...</string>
+    <string name="sentence_select_directory">Выберите фотографию из папки</string>
+    <string name="sentence_notfound_galleryorfile">К сожалению, я не могу найти галерею приложение или файл не существует ...</string>
+    <string name="sentence_notfound_email">К сожалению, я не могу найти приложение электронной почты ....</string>
+    <string name="sentence_notfound_shareorfile">К сожалению, я не могу найти какой-либо доли приложение или файл не существует ...</string>
+    <string name="sentence_email">Отправить на e-mail с ...</string>
+
+    <string name="saved">Сохраненные</string>
+
+    <string name="picture">Фото</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">Это приложение требуется разрешение камеры.</string>
+    <string name="camera_error">" Данное устройство не поддерживает Camera2 API."</string>
+    <string name="permission_rationale_title">Требуется разрешение</string>
+    <string name="permission_rationale_camera">Разрешение камеры требуется, чтобы включить камеру</string>
+    <string name="permission_rationale_storage">чтения для хранения / записи требуется для сохранения фотографий</string>
+
+
+    <!-- This is an ad unit ID for a test ad. Replace with your own banner ad unit id. -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="android_studio_android_com">android.studio@android.com</string>
+    <string name="about">относительно</string>
+    <string name="acknowledgments">Выражение признательности и кредитов / Описание:</string>
+    <string name="ack_content">
+        \nИкона \"MyMirror\", сделанные Freepik [http://www.freepik.com] от www.flaticon.com
+
+        \n\"относительно\" Икона сделанной / из www.icons8.com
+
+        \n\"Камера\" Икона сделана из www.icons8.com /
+
+        \n\"Настройки\" Икона сделана / из www.icons8.com
+
+        \n\"Удалить" Икона сделана / из www.icons8.com
+
+        \n\"Отправить письмо\" Икона сделанное Yannick [http://yanlu.de] от www.flaticon.com
+
+        \nИкона \"Экспозиция\", сделанные EpicCoder [http://www.epicpxls.com] от www.flaticon.com
+
+        \n\"Доля\" Икона сделана Freepik [http://www.freepik.com] из www.flaticon.com и Android Studio от Google.
+
+        \nЗвук затвора камеры от http://www.sonidosmp3gratis.com
+
+        \n\nЭтот продукт содержит, The Android Open Source Project: Camera2basic, который
+        под лицензией Apache License версии 2.0. Лицензия может быть загружена с
+                 http://www.apache.org/licenses/LICENSE-2.0.html
+
+        \n\nЭто приложение нуждается в галерее приложения, установленного в устройстве.
+
+        \n\nЭто приложение использует Camera2 API.
+        \n\nCopyright © 2016- Рохелио Calderin.
+        \nВсе права защищены.
+    </string>
+    <string name="application">заявка</string>
+    <string name="preference_animation_ui_example">Запуск UI пример анимации при запуске.</string>
+    <string name="preference_animation_ui_example_summary">Запуск UI пример анимации при запуске приложения.</string>
+    <string name="preference_last_photo">Помните последнюю фотографию.</string>
+    <string name="preference_last_photo_summary">Помните последнюю фотографию, сделанную или выбранный.</string>
+    <string name="preference_sound_effect">Звуковой эффект.</string>
+    <string name="preference_sound_effect_summary">Звук при нажимать кнопки.</string>
+    <string name="sentence_configure_failed">К сожалению, я не могу настроить камеры предварительного просмотра.</string>
+    <string name="sentence_havent_picked_image">Вы не выбрали никакого образа.</string>
+    <string name="sentence_wrong">Что-то пошло не так.</string>
+
+
+</resources>

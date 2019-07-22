@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Copyright 2014 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.rocsoftware.mymirror.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    >
+
+
+
+    <com.rocsoftware.mymirror.AutoFitTextureView
+        android:id="@+id/texture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <!--android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        ads:fabSize="mini"
+        ads:srcCompat="@drawable/ic_menu_camera"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:id="@+id/flb_action_camera" -->
+
+
+    <!--
+        <FrameLayout
+            android:id="@+id/control"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/control_background"
+            >
+
+
+            <com.google.android.gms.ads.AdView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/adView"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id"
+                />
+        </FrameLayout>
+    -->
+
+
+    <!--ImageButton
+        android:id="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/picture"
+        android:src="@drawable/camera_in_circle_64px"
+        style="@android:style/Widget.Material.Light.Button.Borderless"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        ads:srcCompat="@android:drawable/ic_dialog_email"
+        android:layout_alignTop="@+id/picture"
+        android:layout_toEndOf="@+id/picture"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/fab" -->
+
+</RelativeLayout>

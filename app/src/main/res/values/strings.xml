@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">MyMirror</string>
+    <string name="app_version">version 1.0.0</string>
+    <string name="app_developer">By RocDroid</string>
+    <string name="cia_developer">RocDroid</string>
+    <string name="last_photo">Last Photo</string>
+    <string name="email_support">rocdroid9@gmail.com</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="gallery_management">Gallery Management</string>
+    <string name="share">Share</string>
+    <string name="email">Send Email / Feedback</string>
+    <string name="action_settings">Settings</string>
+    <string name="communicate">Communicate</string>
+
+    <string name="brightness">Brightness</string>
+    <string name="sentence_share">Share image with...</string>
+    <string name="sentence_notfound_gallery">Sorry, i can not find any gallery app...</string>
+    <string name="sentence_select_directory">Select your photo from folder </string>
+    <string name="sentence_notfound_galleryorfile">Sorry, i can not find any gallery app or the file don\'t exist...</string>
+    <string name="sentence_notfound_email">Sorry, i can not find any email app...</string>
+    <string name="sentence_notfound_shareorfile">Sorry, i can not find any share app or the file don\'t exist...</string>
+    <string name="sentence_email">Send Email with...</string>
+    <string name="sentence_wait">Please wait...</string>
+    <string name="sentence_ask_del_photo">Delete last photo?</string>
+    <string name="sentence_photo_deleted">The photo was deleted !!</string>
+
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This app needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="permission_rationale_title">Permission required</string>
+    <string name="permission_rationale_camera">Camera permission is required to enable the camera</string>
+    <string name="permission_rationale_storage">Storage read/write  permission is required to save photos</string>
+    <string name="saved">Saved</string>
+
+    <!-- This is an ad unit ID for a test ad. Replace with your own banner ad unit id. -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="android_studio_android_com">android.studio@android.com</string>
+
+    <string name="application">Application</string>
+    <string name="about">About</string>
+    <string name="acknowledgments">Acknowledgments and credits/description:</string>
+
+    <string name="ack_content">
+       \n\"MyMirror\" Icon made by Freepik [ http://www.freepik.com ] from www.flaticon.com   is licensed by   http://creativecommons.org/licenses/by/3.0/
+       \n\n\"About\" Icon made by/from www.icons8.com
+       \n\"Camera\" Icon made by/from www.icons8.com
+       \n\"Settings\" Icon made by/from www.icons8.com
+       \n\"Delete\" Icon made by/from www.icons8.com
+       \n\n\"Send Email\" Icon made by Yannick [ http://yanlu.de ]from www.flaticon.com is licensed by   http://creativecommons.org/licenses/by/3.0/
+       \n\n\"Exposure\" Icon made by EpicCoder [ http://www.epicpxls.com ] from www.flaticon.com  is licensed by   http://creativecommons.org/licenses/by/3.0/
+       \n\n\"Share\" Icon in screen made by Freepik [ http://www.freepik.com ] from www.flaticon.com is licensed by   http://creativecommons.org/licenses/by/3.0/
+       \n\n\"Share\" Icon in toolbar made by Android Studio from Google.
+
+       \n\n\"Rainbow and Sun\" Icon made by Yannick  http://www.flaticon.com/authors/yannick from http://www.flaticon.com is licensed by http://creativecommons.org/licenses/by/3.0/
+       \n\nCamera Shutter Sound from http://www.sonidosmp3gratis.com
+
+       \n\nThis product contains, The Android Open Source Project: Camera2basic, which is
+       \nlicensed under Apache License Version 2.0. The license can be downloaded from
+        http://www.apache.org/licenses/LICENSE-2.0.html
+       \n\nThis app needs some gallery application installed in your device.
+       \n\nThis app uses Camera2 API.
+       \n\nCopyright &#169; 2016- Rogelio Calderín.
+       \nAll Rights Reserved.
+    </string>
+
+    <string name="preference_last_photo">Remember last photo.</string>
+    <string name="preference_last_photo_summary">Remember last photo made or selected.</string>
+    <string name="preference_animation_ui_example">Run UI animation example at starting.</string>
+    <string name="preference_animation_ui_example_summary">Run UI animation example  at starting application.</string>
+    <string name="preference_sound_effect">Sound effect.</string>
+    <string name="preference_sound_effect_summary">Sound when click buttons.</string>
+    <string name="sentence_havent_picked_image">You have selected no image.</string>
+    <string name="sentence_wrong">Something went wrong.</string>
+    <string name="sentence_configure_failed">Sorry, i can not configure the camera preview.</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="preference_delete_photo">I Ask you before delete last photo?.</string>
+    <string name="preference_delete_photo_summary">I Show Dialog Asking you before delete last photo.</string>
+
+
+</resources>

@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">MyMirror</string>
+    <string name="app_version">version 1.0.0</string>
+    <string name="app_developer">By RocSoftware</string>
+    <string name="cia_developer">RocSoftware</string>
+    <string name="last_photo">上一张照片</string>
+    <string name="email_support">rocsoftware9@gmail.com</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="gallery_management">图库管理</string>
+    <string name="share">共享</string>
+    <string name="email">发送电子邮件/反馈</string>
+    <string name="action_settings">设置</string>
+    <string name="communicate">沟通</string>
+
+    <string name="brightness">亮度</string>
+    <string name="sentence_share">与...共享图片</string>
+    <string name="sentence_notfound_gallery">对不起，我找不到任何图库应用程序...</string>
+    <string name="sentence_select_directory">从文件夹</string>
+    <string name="sentence_notfound_galleryorfile">对不起，我找不到任何图库应用程序或该文件不存在...</string>
+    <string name="sentence_notfound_email">对不起，我找不到任何电子邮件应用程序...</string>
+    <string name="sentence_notfound_shareorfile">对不起，我找不到任何共享应用程序或该文件不存在...</string>
+    <string name="sentence_email">发送电子邮件...</string>
+
+    <string name="saved">已保存</string>
+
+    <string name="picture">图片</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">此应用需要相机权限。</string>
+    <string name="camera_error">此设备不支持Camera2 API。.</string>
+    <string name="permission_rationale_title">需要权限</string>
+    <string name="permission_rationale_camera">需要相机权限才能启用相机</string>
+    <string name="permission_rationale_storage">需要存储读/写权限才能保存照片</string>
+
+
+    <!-- This is an ad unit ID for a test ad. Replace with your own banner ad unit id. -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="android_studio_android_com">android.studio@android.com</string>
+    <string name="about">关于</string>
+    <string name="acknowledgments">致谢和信用/描述：</string>
+    <string name="ack_content">
+        \nFreepik制作的“MyMirror”图标 [http://www.freepik.com]，来自 www.flaticon.com
+
+        \n\n“关于”由/由 www.icons8.com 制作的图标
+
+        \n“相机”图标由/由 www.icons8.com
+
+        \n“设置”图标由/由 www.icons8.com
+
+        \n\“删除\”由/由www.icons8.com制作的图标
+
+        \n“发送电子邮件”图标由Yannick [http://yanlu.de] 从 www.flaticon.com
+
+        \n“曝光”图标由EpicCoder [http://www.epicpxls.com] 从 www.flaticon.com
+
+        \n来自 www.flaticon.com 的 Freepik [http://www.freepik.com] 制作的“分享”图标和来自Google的Android Studio。
+
+        \n相机快门声音从 http://www.sonidosmp3gratis.com
+
+        \n\n本产品包含，Android开源项目：Camera2basic，也就是
+        根据Apache许可证版本2.0授权。 许可证可以从中下载
+                 http://www.apache.org/licenses/LICENSE-2.0.html
+
+        \n\n此应用程序需要在您的设备中安装一些图库应用程序。
+
+        \n\n此应用程序使用Camera2 API。
+        \n\n版权所有©2016 Rogelio Calderín。
+        \n版权所有。
+    </string>
+    <string name="application">应用</string>
+    <string name="preference_animation_ui_example">在启动时运行UI动画示例。</string>
+    <string name="preference_animation_ui_example_summary">在启动应用程序时运行UI动画示例。</string>
+    <string name="preference_last_photo">记住上一张照片。</string>
+    <string name="preference_last_photo_summary">记住上次拍摄或选择的照片。</string>
+    <string name="preference_sound_effect">音效。</string>
+    <string name="preference_sound_effect_summary">单击按钮时发出声音。</string>
+    <string name="sentence_configure_failed">抱歉，我无法配置相机预览。</string>
+    <string name="sentence_havent_picked_image">您没有选择图片。</string>
+    <string name="sentence_wrong">出了些问题。</string>
+
+
+</resources>

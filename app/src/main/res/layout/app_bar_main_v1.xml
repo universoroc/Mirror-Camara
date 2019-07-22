@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.rocsoftware.mymirror.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <!--android:layout_marginBottom="60dp" -->
+
+    <FrameLayout
+        android:id="@+id/fragment_mirror_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+         >
+
+        <include layout="@layout/fragment_camera2_basic" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/fullscreen_content_controls"
+        android:layout_gravity="bottom"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorGray"
+        >
+
+        <com.google.android.gms.ads.AdView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/adView"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id"
+            />
+    </FrameLayout>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginEnd="10dp"
+        android:clickable="true"
+        ads:fabSize="mini"
+        ads:srcCompat="@drawable/ic_menu_camera"
+        android:id="@+id/flb_action_camera"
+        app:layout_anchor="@+id/fragment_mirror_holder"
+        app:layout_anchorGravity="bottom|left" />
+
+
+    <SeekBar
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        ads:fabSize="mini"
+        android:id="@+id/skb_action_exposure"
+        android:max="24"
+        android:progress="0"
+        app:layout_anchorGravity="bottom"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="70dp"
+        app:layout_anchor="@+id/fragment_mirror_holder"
+        android:layout_toEndOf="@+id/flb_action_camera"
+        android:thumb="@drawable/ic_menu_exposure_green" />
+
+
+</android.support.design.widget.CoordinatorLayout>
